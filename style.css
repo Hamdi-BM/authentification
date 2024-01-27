@@ -1,1 +1,117 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+body{
+    height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #960c96;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    
+    background-color: transparent;
+    /*background: rgba(255, 255, 255, 0.685);*/
+    backdrop-filter: blur(10px);
+    padding: 3%;
+    border: 0.7px solid ;
+    border-radius: 10px;
+    border-color: rgba(199, 199, 199, 0.5);
+}
+.container .log-in{
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+    
+}
+.container .label{
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 0.7px solid;
+    border-color: rgba(255, 255, 255, 0.5) ;
+    color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    
+}
+::placeholder{
+    color: rgba(240, 248, 255, 0.856);
+    margin-right: -20%;
+    
+}
+.container .label:focus-within { 
+    font-size: 16px ;
+    margin-bottom: 5px;
+    outline: none;
+    
+}
+label[for=myCheckbox]{
+    color: aliceblue;
+    
+}
+.container .check{
+    padding: 10px;
+    font-size: 16px;
+       
+}
+input[type=checkbox]:hover{
+    cursor: pointer;
+}
+
+.container .loginButton{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    margin-left: 34px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom:10px;
+    margin-top: 20px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+.container .loginButton:hover{
+    color: rgba(77, 76, 76, 0.829);
+    cursor: pointer;
+}
+.container .pass-forg{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: aliceblue;
+    margin-top: 12px;
+    
+    
+
+}
+.container .sign-in{
+    color: aliceblue;
+    margin-top: 30px;
+}
+.container .elements{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.register{
+    color: aliceblue;
+}
+
+
+
+
+
 
