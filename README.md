@@ -1,2 +1,2 @@
 # authentification
-a web page for log in
+a web page for login
